@@ -2,7 +2,7 @@
 id-veth-peer.sh
 ======
 
-Creating a veth pair makes two interfaces, but there is no simple way to identify which interface is paired with which other interface. This is a simple bash script to identify the peer interface of a given veth interface in a linux specified linux network namespace.
+Creating a veth pair makes two interfaces, but there is no simple way to identify which interface is paired with which other interface. This is a simple bash script to identify the peer interface of a given veth interface in a given linux network namespace.
 
 I found this helpful in understanding various openstack network configurations.
 
