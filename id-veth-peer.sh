@@ -18,6 +18,6 @@ select ns in "${namespaces[@]}"; do
         peername=$(ip l | awk -v peernum="$peernum" '$0 ~ ("^"peernum":") {print substr($2, 1, length($2) - 1) }')
         break
     done
-    echo 'name of peer interface in root netns: $peername'
+    echo "Peer: $peername"
     break
 done
